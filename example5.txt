@@ -1,0 +1,5 @@
+I found that editing HEAD in the remote repo (if you have ssh access) 
+changes the default branch, so in myrepo/HEAD (if it is a bare repo) 
+change ref: refs/heads/master to ref: refs/heads/main 
+then by default main is used when the repository is cloned. – 
+Johann
